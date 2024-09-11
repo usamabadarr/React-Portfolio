@@ -1,7 +1,6 @@
 // src/pages/Projects.jsx
 
 import React from 'react';
-// import './Projects.css';
 
 // Project Component
 const Project = ({ title, image, description, repoLink }) => {

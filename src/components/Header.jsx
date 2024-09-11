@@ -19,7 +19,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/Projects" className={currentPage === '/Projects' ? 'nav-link active' : 'nav-link'}>
+              <Link to="/Portfolio" className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}>
                 Portfolio
               </Link>
             </li>
