@@ -8,13 +8,13 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Resume from './pages/Resume';
-import Projects from './pages/Portfolio';
+import Projects from './pages/Projects';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    errorElement: <Error />,
+    // errorElement: <Error />,
     children: [
       {
         index: true,
@@ -33,8 +33,8 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path: '/Portfolio',
-        element: <Portfolio />,
+        path: '/Projects',
+        element: <Projects />,
       },
     ],
   },

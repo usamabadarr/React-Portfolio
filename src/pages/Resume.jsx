@@ -7,9 +7,14 @@ const Resume = () => {
       <h2>Resume</h2>
       <a href="/path_to_resume.pdf" download>Download Resume</a>
       <ul>
-        <li>Proficiency 1</li>
-        <li>Proficiency 2</li>
-        <li>Proficiency 3</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>Typescript</li>
+        <li>React</li>
+        <li>NodeJS</li>
+        <li>PostgreSQL</li>
+        <li>MongoDB</li>
       </ul>
     </section>
   );

@@ -3,7 +3,7 @@ export default function Home() {
     <div>
       <h1>Home Page</h1>
       <p>
-        Add content here
+        Welcome to my Portfolio created by using technologies like React, PostgreSQL, NodeJS, Javascript, and Typescript.
       </p>
     </div>
   );
