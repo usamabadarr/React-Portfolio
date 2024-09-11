@@ -1,0 +1,121 @@
+/* Reset margin and padding globally */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the body takes full viewport height */
+}
+
+/* Header Styles */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center; /* Align items vertically center */
+  justify-content: space-between; /* Space out title and nav items */
+}
+
+.header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Ensure container uses full width */
+}
+
+.header-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0; /* Remove margin around title */
+  padding: 0; /* Remove padding around title if needed */
+}
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  margin-left: 1rem;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #555;
+}
+
+.nav-link.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.nav-link.active:hover {
+  background-color: #0056b3;
+}
+
+/* Main Content Styles */
+main {
+  flex: 1; /* Allow main content to grow and take available space */
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+  position: relative; /* Make footer relative for better positioning */
+  width: 100%;
+}
+
+footer h3 {
+  margin-bottom: 0.5rem;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+}
+
+footer ul li {
+  margin: 0 1rem; /* Add space between items */
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+footer a:hover {
+  color: #f39c12; /* Change color on hover */
+}

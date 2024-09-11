@@ -5,7 +5,7 @@ import React from 'react';
 const Projects = () => {
   return (
     <section>
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
       <Project
         title="Efficiency Nerds"
         image="/assets/images/Project1.png"
