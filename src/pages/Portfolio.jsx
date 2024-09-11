@@ -1,6 +1,6 @@
 // src/pages/Portfolio.jsx
 import React from 'react';
-import Project from '../components/Project';
+// import Project from '../pages/Project';
 
 const Portfolio = () => {
   return (
@@ -10,15 +10,13 @@ const Portfolio = () => {
         title="Project 1"
         image="/assets/images/project1.png"
         description="Description of Project 1"
-        liveLink="https://liveproject1.com"
-        repoLink="https://github.com/yourrepo1"
+        repoLink=""
       />
       <Project
         title="Project 2"
         image="/assets/images/project2.png"
         description="Description of Project 2"
-        liveLink="https://liveproject2.com"
-        repoLink="https://github.com/yourrepo2"
+        repoLink=""
       />
     </section>
   );

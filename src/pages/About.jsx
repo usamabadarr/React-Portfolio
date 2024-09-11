@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <section>
       <h2>About Me</h2>
-      <p>Your bio goes here. Share your background, experiences, and skills.</p>
+      <p>About me goes here. Share background, experiences, and skills.</p>
     </section>
   );
 };
