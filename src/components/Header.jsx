@@ -14,12 +14,12 @@ const Header = () => {
         <nav className="nav">
           <ul className="nav-list">
             <li className="nav-item">
-              <Link to="/" className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>
+              <Link to="/About" className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}>
                 About Me
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/portfolio" className={currentPage === '/portfolio' ? 'nav-link active' : 'nav-link'}>
+              <Link to="/Projects" className={currentPage === '/Projects' ? 'nav-link active' : 'nav-link'}>
                 Portfolio
               </Link>
             </li>
