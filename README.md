@@ -28,9 +28,9 @@ To access my React Portfolio:
 
     Ensure you have Node.js installed. Then open integrated terminal and run:
         
-        1: npm install
+        npm install
 
-    To open, run the following command:
+    To open, run the following command at the root directory:
 
         npm dev/npm run dev
 
@@ -46,4 +46,8 @@ To access my React Portfolio:
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+## Link to a URLs
+http://localhost:3000/
+
 ## Link to a demo
+https://drive.google.com/file/d/1w7xhDQCzT7swm_SVOJhoVZ7V9Zitsbjf/view?usp=sharing
